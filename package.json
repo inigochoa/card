@@ -1,0 +1,38 @@
+{
+  "name": "@inigochoa/card",
+  "version": "1.0.0",
+  "description": "A personal npx card for Iñigo Ochoa (@inigochoa)",
+  "keywords": [
+    "card",
+    "npm card",
+    "npx card",
+    "business card"
+  ],
+  "license": "MIT",
+  "author": "Iñigo Ochoa <contact@inigochoa.me> (https://inigochoa.me/)",
+  "homepage": "https://inigochoa.me/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inigochoa/card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inigochoa/card/issues"
+  },
+  "main": "bin/card.js",
+  "bin": {
+    "inigochoa": "./bin/card.js"
+  },
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "card": "node bin/card.js",
+    "dev": "yarn build && yarn card"
+  }
+}
