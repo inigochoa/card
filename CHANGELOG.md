@@ -9,6 +9,10 @@ All notable changes to this project will be documented in this file.
 - Update card info
 - Update output
 
+### 📚 Documentation
+
+- Update CHANGELOG.md for v2.0.0
+
 ### ⚙️ Miscellaneous Tasks
 
 - *(yarn)* Remove yarn lockfile
