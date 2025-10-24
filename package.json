@@ -33,6 +33,6 @@
   "scripts": {
     "build": "node build.js",
     "card": "node bin/card.js",
-    "dev": "yarn build && yarn card"
+    "dev": "pnpm build && pnpm card"
   }
 }
