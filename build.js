@@ -14,10 +14,11 @@ const options = {
 const data = [
   `${chalk.white('Iñigo Ochoa'.padStart(24))} / ${chalk.white('inigochoa')}`,
   '',
-  `${chalk.white.bold('   Work:')}  ${chalk.white('Backend Developer at Veiss Comunicación')}`,
+  `${chalk.white.bold('   Work:')}  ${chalk.white('Full stack developer')}`,
   '',
   `${chalk.white.bold(' GitHub:')}  ${chalk.gray('https://github.com/')}${chalk.green('inigochoa')}`,
   `${chalk.white.bold('    Web:')}  ${chalk.cyan('https://inigochoa.me/')}`,
+  `${chalk.white.bold('Bluesky:')}  ${chalk.gray('https://bsky.app/profile/')}${chalk.green('inigochoa.me')}`,
   '',
   `${chalk.white.bold('   Card:')}  ${chalk.red('npx')} ${chalk.white('@inigochoa/card')}`,
 ]
