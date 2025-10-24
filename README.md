@@ -22,7 +22,7 @@ And the output should be:
 To test and see changes in the card, run:
 
 ```console
-yarn dev
+pnpm dev
 ```
 
 ## Disclaimer
