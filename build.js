@@ -1,9 +1,9 @@
 'use strict'
 
-const fs = require('fs')
-const path = require('path')
-const boxen = require('boxen')
-const chalk = require('chalk')
+import boxen from 'boxen';
+import chalk from 'chalk';
+import { join } from 'path';
+import { writeFileSync } from 'fs';
 
 const options = {
   padding: 1,
@@ -23,4 +23,4 @@ const data = [
   `${chalk.white.bold('   Card:')}  ${chalk.red('npx')} ${chalk.white('@inigochoa/card')}`,
 ]
 
-fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.magenta(boxen(data.join('\n'), options)))
+writeFileSync(join(import.meta.dirname, 'bin/output'), chalk.magenta(boxen(data.join('\n'), options)))
