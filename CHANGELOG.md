@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2025-10-24
+
+### 📚 Documentation
+
+- Update CHANGELOG.md for v2.0.0
+- Update CHANGELOG.md for v3.0.0
+
+### ⚙️ Miscellaneous Tasks
+
+- *(pnpm)* Bump package versions
+
 ## [2.0.0] - 2025-10-24
 
 ### 🚀 Features
